@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    
+    
+}
+#logo-text{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin: 10px;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+
+}
+.header-content{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #E5E7EB;
+    gap: 52px;
+    padding: 52px;
+    
+    
+}
+.header-main{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    max-width: 400px;
+    
+
+   
+}
+.bolder{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    float: left;
+    padding: 10px;
+}
+.lighter{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+}
+.signup{
+    border-color: #3882F6;
+    background-color: #3882F6;
+    color: #F9F1F8;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 75px;
+
+   
+}
+.image{
+    height: 300px;
+    width: 600px;
+    background-color: grey;
+    color: #F9F1F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+}
+.items{
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.main-text{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.align-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:32px
+}
+.align-square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    gap: 32px;
+    padding: 10px;
+    margin-left:25px;
+}
+.second-content{
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-bottom: 40px;
+}
+.signature{
+    font-size: 18px;
+    text-align: end;
+    padding: 10px;
+    display: flex;
+    align-items: last baseline;
+    font-weight: bold;
+    padding: 40px;
+
+}
+.content-text{
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
